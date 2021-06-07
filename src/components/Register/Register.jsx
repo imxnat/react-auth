@@ -2,7 +2,7 @@ import {React, useState} from 'react';
 import './Register.css';
 import googleIcon from '../icons/google-brands.svg';
 import githubIcon from '../icons/github-brands.svg';
-import microsoftIcon from '../icons/microsoft-brands.svg';
+import twitterIcon from '../icons/twitter-brands.svg';
 import register from '../images/register.svg'
 import Login from '../Login/Login';
 import { BrowserRouter as Router, Switch,  Route, Link } from "react-router-dom";
@@ -42,9 +42,9 @@ const Register = props => {
 
                         <p className="social-text">Or Sign Up with social plataforms</p>
                             <div className="social-media">
-                                <a href="#" className="social-icon"> <img src={googleIcon} alt="login-with-google" /> </a>
-                                <a href="#" className="social-icon">  <img src={githubIcon} alt="login-with-google" /> </a>
-                                <a href="#" className="social-icon">  <img src={microsoftIcon} alt="login-with-google" /> </a>
+                                <a href="" className="social-icon"> <img src={googleIcon} alt="signup-with-google" /> </a>
+                                <a href="" className="social-icon">  <img src={githubIcon} alt="signup-with-github" /> </a>
+                                <a href="" className="social-icon">  <img src={twitterIcon} alt="signup-with-twitter" /> </a>
                             </div>
                 </form>
 

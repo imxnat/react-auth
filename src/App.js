@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css';
 import Login from './components/Login/Login'
-import { BrowserRouter as Router, Switch,  Route, Link } from "react-router-dom";
+import NotAllowed from './components/NotAllowed'
+import { BrowserRouter as Router, Switch,  Route } from "react-router-dom";
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Login} />
-          <Route exact path="/ruta">
-              <h1>HOLA ME CAMBIE DE RUTA</h1>
-          </Route>
+          <Route exact path="/not-allowed" component={NotAllowed} />       
         </Switch>
       </div>
       </Router>
