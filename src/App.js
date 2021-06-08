@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Login} />
-          <Route exact path="/not-allowed" component={NotAllowed} />       
+          <Route exact path="/Not-allowed" component={NotAllowed} />       
         </Switch>
       </div>
       </Router>

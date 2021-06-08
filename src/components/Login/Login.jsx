@@ -5,6 +5,7 @@ import githubIcon from '../icons/github-brands.svg';
 import twitterIcon from '../icons/twitter-brands.svg';
 import login from '../images/login.svg'
 import Register from '../Register/Register'
+import NotAllowed from '../NotAllowed/NotAllowed'
 
 import { BrowserRouter as Router, Switch,  Route, Link } from "react-router-dom";
 
@@ -36,7 +37,10 @@ const Login =  props => {
                     <div className="input-field">
                         <input type="password" placeholder="Password..." onChange={handleInput} />
                     </div>
-                        <button className="btn-solid" type="submit"> Log in </button>
+
+                        <Link to ="/Not-allowed">
+                            <button className="btn-solid" type="submit"> Log in </button>
+                        </Link>
 
                         <div className="login_container--remember-me">
 							<label>
@@ -63,6 +67,7 @@ const Login =  props => {
             </div>
 
             <Switch>
+                 <Route exact path="/Not-allowed" component={NotAllowed} />
                  <Route exact path="/Register" component={Register} />
              </Switch>
 
