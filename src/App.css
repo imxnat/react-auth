@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-:root{
-  --icons-color: #00587C;
-  --light-blue: #00A9E6;
-  --medium-blue: #006BB7;
-  --dark-blue: #005681;
-}
-
 .App {
   background-color: #fff;
   height: 100vh;
