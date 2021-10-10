@@ -51,9 +51,9 @@ const Login =  props => {
 
                         <p className="social-text">Or Sign in with social plataforms</p>
                             <div className="social-media">
-                                <a href="" className="social-icon"> <img src={googleIcon} alt="login-with-google" /> </a>
-                                <a href="" className="social-icon">  <img src={githubIcon} alt="login-with-github" /> </a>
-                                <a href="" className="social-icon">  <img src={twitterIcon} alt="login-with-twitter" /> </a>
+                                <a href="/" className="social-icon"> <img src={googleIcon} alt="login-with-google" /></a>
+                                <a href="/" className="social-icon">  <img src={githubIcon} alt="login-with-github" /></a>
+                                <a href="/" className="social-icon"><img src={twitterIcon} alt="login-with-twitter" /></a>
                             </div>
                 </form>
                 

@@ -42,9 +42,9 @@ const Register = props => {
 
                         <p className="social-text">Or Sign Up with social plataforms</p>
                             <div className="social-media">
-                                <a href="" className="social-icon"> <img src={googleIcon} alt="signup-with-google" /> </a>
-                                <a href="" className="social-icon">  <img src={githubIcon} alt="signup-with-github" /> </a>
-                                <a href="" className="social-icon">  <img src={twitterIcon} alt="signup-with-twitter" /> </a>
+                                <a href="/register" className="social-icon"> <img src={googleIcon} alt="signup-with-google" /> </a>
+                                <a href="/register" className="social-icon">  <img src={githubIcon} alt="signup-with-github" /> </a>
+                                <a href="/register" className="social-icon">  <img src={twitterIcon} alt="signup-with-twitter" /> </a>
                             </div>
                 </form>
 
