@@ -4,7 +4,7 @@ import './NotAllowed.css'
 import linkedinIcon from '../icons/linkedin_icon.svg'
 import twitterIcon from '../icons/twitter_icon.svg'
 import youtubeIcon from '../icons/youtube_icon.svg'
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route} from "react-router-dom";
 import Login from '../Login/Login'
 
 
